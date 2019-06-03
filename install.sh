@@ -37,7 +37,7 @@ function pip_exists(){
 #安装python依赖包
 function install_(){
     echo "4. 安装python依赖包";
-    pip install -r requirements.txt -U
+    pip install -i https://mirrors.aliyun.com/pypi/simple/ -r requirements.txt -U
 }
 
 #配置文件
